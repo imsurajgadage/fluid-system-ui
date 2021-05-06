@@ -1,0 +1,31 @@
+.container{
+    background-color: #ED4737;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content{
+    padding: 15px;
+    color: #FFF;
+}
+
+.www{
+    height: 15px;
+    width: 15px;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .content{
+        font-size: 4vw;
+    }
+}
+

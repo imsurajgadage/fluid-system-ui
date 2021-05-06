@@ -1,0 +1,17 @@
+.header{
+    text-align: center;
+}
+.image{
+    width: 50%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 480px) {
+    .header{
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+        object-fit: contain;
+    }
+  }
